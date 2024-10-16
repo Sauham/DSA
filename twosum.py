@@ -1,10 +1,9 @@
-
+#Solution to Leetcode Two sum problem in Leetcode
 def sort(s):
     li = []
     l = len(s)
     for i in range (0,l):
         li.append(s[i])
-
 
     for i in range(0,l):
         for j in range(0,l):
